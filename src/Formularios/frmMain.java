@@ -29,22 +29,37 @@ public class frmMain extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/user-circle (1).png"))); // NOI18N
         jLabel1.setText("Iniciar sesión");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(41, 12, 90, 16);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/location.png"))); // NOI18N
         jLabel2.setText("Ubicación");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(167, 12, 69, 16);
 
         jLabel4.setText("TIENDA");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(805, 22, 43, 16);
 
         jLabel5.setText("CONTACTO");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(727, 22, 66, 16);
 
         jLabel6.setText("HISTORIA");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(660, 22, 55, 16);
 
         jLabel7.setText("NUEVO");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(612, 22, 42, 16);
 
         jLabel8.setText("DAN STORE PERÚ");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(494, 22, 106, 16);
 
         jPanel1.setBackground(new java.awt.Color(255, 240, 218));
 
@@ -82,13 +97,25 @@ public class frmMain extends javax.swing.JFrame {
                 .addGap(19, 19, 19))
         );
 
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(6, 46, 269, 76);
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(494, 68, 146, 33);
+
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/search.png"))); // NOI18N
+        getContentPane().add(jButton1);
+        jButton1.setBounds(660, 68, 39, 33);
 
         jButton2.setText("♥ ️Whitelist");
+        getContentPane().add(jButton2);
+        jButton2.setBounds(711, 68, 79, 33);
 
         jButton3.setText("🛒");
+        getContentPane().add(jButton3);
+        jButton3.setBounds(796, 68, 24, 33);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/logo (2).jpg"))); // NOI18N
+<<<<<<< HEAD
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -171,6 +198,11 @@ public class frmMain extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(133, Short.MAX_VALUE))
         );
+=======
+        jLabel10.setToolTipText("");
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(345, 12, 100, 100);
+>>>>>>> 76bc243813e0dd1bc679366f26ff90b7ca67bcfc
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
