@@ -28,22 +28,37 @@ public class frmMain extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/user-circle (1).png"))); // NOI18N
         jLabel1.setText("Iniciar sesión");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(41, 12, 90, 16);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/location.png"))); // NOI18N
         jLabel2.setText("Ubicación");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(167, 12, 69, 16);
 
         jLabel4.setText("TIENDA");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(805, 22, 43, 16);
 
         jLabel5.setText("CONTACTO");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(727, 22, 66, 16);
 
         jLabel6.setText("HISTORIA");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(660, 22, 55, 16);
 
         jLabel7.setText("NUEVO");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(612, 22, 42, 16);
 
         jLabel8.setText("DAN STORE PERÚ");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(494, 22, 106, 16);
 
         jPanel1.setBackground(new java.awt.Color(255, 240, 218));
 
@@ -81,82 +96,27 @@ public class frmMain extends javax.swing.JFrame {
                 .addGap(19, 19, 19))
         );
 
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(6, 46, 269, 76);
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(494, 68, 146, 33);
+
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/search.png"))); // NOI18N
+        getContentPane().add(jButton1);
+        jButton1.setBounds(660, 68, 39, 33);
 
         jButton2.setText("♥ ️Whitelist");
+        getContentPane().add(jButton2);
+        jButton2.setBounds(711, 68, 79, 33);
 
         jButton3.setText("🛒");
+        getContentPane().add(jButton3);
+        jButton3.setBounds(796, 68, 24, 33);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/img/logo (2).jpg"))); // NOI18N
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addComponent(jLabel1)
-                        .addGap(36, 36, 36)
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(70, 70, 70)
-                .addComponent(jLabel10)
-                .addGap(49, 49, 49)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel7))
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel4))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton3)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel4))
-                        .addGap(30, 30, 30)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(21, 21, 21))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel10)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel1)
-                                .addComponent(jLabel2))
-                            .addGap(18, 18, 18)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(438, Short.MAX_VALUE))
-        );
+        jLabel10.setToolTipText("");
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(345, 12, 100, 100);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
